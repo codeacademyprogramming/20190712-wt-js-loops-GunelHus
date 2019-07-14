@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 82%;
+  margin: 0 auto;
+}
+
+.container-fluid {
+  width: 100%;
+  padding: 0 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-first {
+  padding: 7px 0 3px;
+  border-bottom: 1px solid #e6e0e0;
+}
+
+.nav-first .nav-first-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-first .nav-first-items .bootstrap-made-image {
+  margin: 15px 8px;
+  padding-right: 9px;
+  border-right: 1px solid #e6e0e0;
+}
+
+.nav-first .nav-first-items .bootstrap-made-image img {
+  width: 170px;
+}
+
+.nav-first .nav-first-items .bootstrap-made-icons ul li {
+  display: inline;
+}
+
+.nav-first .nav-first-items .bootstrap-made-icons ul li a {
+  border: 1px solid #e6e0e0;
+  border-radius: 5px;
+  padding: 10px 15px;
+  color: #807c7c;
+}
+
+.nav-first .nav-first-items .bootstrap-made-icons ul li a:hover {
+  color: #00a6eb;
+  border-color: #00a6eb;
+}
+
+.nav-first .nav-first-items .bootstrap-made-icons ul li:nth-child(3) a {
+  background-color: #00a6eb;
+  border: 1px solid #00a6eb;
+  color: white;
+  font-size: 14px;
+  padding: 13px 10px 13px 15px;
+}
+
+.nav-second {
+  padding: 13px 0px;
+  border-bottom: 1px solid #e6e0e0;
+}
+
+.nav-second .nav-second-items {
+  font-size: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-second .nav-second-items .nav-contact-email {
+  display: inline;
+}
+
+.nav-second .nav-second-items .nav-contact-email i {
+  color: #50D8AF;
+}
+
+.nav-second .nav-second-items .nav-contact-email a {
+  color: grey;
+  border-right: 1px solid #e6e0e0;
+  padding-right: 15px;
+}
+
+.nav-second .nav-second-items .nav-contact-email a:hover {
+  color: #50D8AF;
+}
+
+.nav-second .nav-second-items .nav-contact-phone {
+  display: inline;
+  margin-left: 20px;
+}
+
+.nav-second .nav-second-items .nav-contact-phone span {
+  color: #615f5f;
+}
+
+.nav-second .nav-second-items .nav-contact-phone i {
+  font-size: 12px;
+  color: #50D8AF;
+}
+
+.nav-second .nav-second-icons li {
+  list-style: none;
+  display: inline-block;
+}
+
+.nav-second .nav-second-icons li a {
+  border-left: 1px solid #e6e0e0;
+  padding-left: 15px;
+  color: #4d4747;
+  font-size: 13px;
+  margin: 7px;
+}
+
+.nav-second .nav-second-icons li a:hover {
+  color: #50D8AF;
+}
+
+.nav-second .nav-second-icons li:first-child a {
+  border: 0;
+}
+
+.nav-third .nav-third-reveal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-third .reveal-logo a h2 {
+  color: #0C2E8A;
+  font-size: 45px;
+  font-family: "Montserrat";
+}
+
+.nav-third .reveal-logo a h2 span {
+  color: #50D8AF;
+}
+
+.nav-third .nav-third-links ul li {
+  display: inline-block;
+}
+
+.nav-third .nav-third-links ul li .color {
+  color: #50D8AF;
+}
+
+.nav-third .nav-third-links ul a {
+  color: #635555;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  margin: 7px;
+}
+
+.nav-third .nav-third-links ul a:hover {
+  color: #50D8AF;
+}
+
+.nav-third .nav-third-links .dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.nav-third .nav-third-links .dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  width: 180px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.nav-third .nav-third-links .dropdown .dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  font-size: 13px;
+  padding: 12px 16px;
+}
+
+.nav-third .nav-third-links .dropdown .dropdown-content a:hover {
+  color: #50D8AF;
+}
+
+.nav-third .nav-third-links:hover .dropdown-content {
+  display: block;
+}
+/*# sourceMappingURL=navbar.css.map */
