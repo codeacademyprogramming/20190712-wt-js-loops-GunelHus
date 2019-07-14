@@ -211,7 +211,7 @@ a {
   color: #50D8AF;
 }
 
-.nav-third .nav-third-links:hover .dropdown-content {
+.nav-third .nav-third-links .dropdown:hover .dropdown-content {
   display: block;
 }
 /*# sourceMappingURL=navbar.css.map */
